@@ -1,0 +1,72 @@
+.functionalities {
+    .see-all {
+        background-color: rgb(238, 238, 238);
+        border-radius: 35px;
+        padding: 7px 20px;
+        h1{
+            color: #00000038;
+            font-size: calc(0.9rem + 0.3vw);
+            text-align: center;
+            vertical-align: middle;
+        }
+    }
+
+    .icon {
+        flex-basis: 100%;
+        img {
+            height: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+        }
+    }
+
+    .functionalities-list {
+        margin-top: 15px;
+        padding: 0px;
+
+        .card {
+            width:100%;
+            border-radius: 35px;
+            background-color: #fdfdfd;
+            border: none;
+            box-shadow: 6px 7px 16px -4px rgba(0,0,0,0.41);
+            -webkit-box-shadow: 6px 7px 16px -4px rgba(0,0,0,0.41);
+            -moz-box-shadow: 6px 7px 16px -4px rgba(0,0,0,0.41);
+
+            .card-body {
+
+                h1{
+                    font-size: calc(0.4rem + 0.9vw);
+                    font-weight: 600;
+                }
+
+                .resources {
+                    margin-top: 30px;
+                    ul {
+                        list-style: none; /* Remove default bullets */
+                        text-align: left;
+                        margin: 0px;
+                        padding: 0px;
+                      }
+
+                      ul li {
+                        font-size: 12px;
+                      }
+
+                      ul li::before {
+                        content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+                        color: #0000001c; /* Change the color */
+                        display: inline-block; /* Needed to add space between the bullet and the text */
+                        width: 0.5em; /* Also needed for space (tweak if needed) */
+                        //line-height: 30px;
+                        /* margin-left: -1em; */
+                        font-size: 2em;
+                      }
+                }
+            }
+        }
+
+    }
+}

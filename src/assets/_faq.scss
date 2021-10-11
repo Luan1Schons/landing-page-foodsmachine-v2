@@ -1,0 +1,31 @@
+.faq {
+    h3 {
+        color: #DCDCDC;
+        font-weight: 400;
+        span {
+            font-weight: bold;
+            color: #DCDCDC;
+        }
+    }
+}
+.quest {
+    .card-header {
+        padding: 10px 20px;
+        border-radius: 25px !important;
+        background-color: #fff;
+        border: none !important;
+        box-shadow: 7px 5px 21px rgba(0, 0, 0, 0.2);
+        -webkit-box-shadow: 7px 5px 21px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 7px 5px 21px rgba(0, 0, 0, 0.2);
+        color: #959494;
+    }
+
+    .card-body {
+        margin-top: 6px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+        -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 15px;
+        background-color: #fff;
+    }
+}

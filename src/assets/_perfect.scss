@@ -1,0 +1,25 @@
+.perfect {
+    margin-top: 80px;
+
+    .card {
+        width: 100%;
+        border-radius: 35px;
+        border: none;
+        background-color: #fff;
+        -webkit-box-shadow: -4px 4px 5px 0px #e4e4e4;
+        box-shadow: -4px 4px 5px 0px #e4e4e4;
+
+        .perfect-items {
+            .items {
+                margin: auto;
+                width: 100%;
+                h3 {
+                    text-transform: uppercase;
+                }
+                img {
+                    width:40px !important;
+                }
+            }
+        }
+    }
+}

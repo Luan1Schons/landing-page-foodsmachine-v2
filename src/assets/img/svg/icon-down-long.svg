@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.074" height="52.714" viewBox="0 0 29.074 52.714">
+  <defs>
+    <filter id="Linha_975" x="4.297" y="0" width="22" height="52.714" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_4411" data-name="Grupo 4411" transform="translate(2.967 8)">
+    <g id="Grupo_4092" data-name="Grupo 4092" transform="translate(0.602 18.944) rotate(3)">
+      <line id="Linha_5" data-name="Linha 5" x2="12.065" y2="10.674" transform="translate(0 0.829)" fill="none" stroke="#22b9c2" stroke-linecap="round" stroke-width="4"/>
+      <line id="Linha_6" data-name="Linha 6" x1="10.154" y2="11.504" transform="translate(12.415 0)" fill="none" stroke="#22b9c2" stroke-linecap="round" stroke-width="4"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -2.97, -8)" filter="url(#Linha_975)">
+      <line id="Linha_975-2" data-name="Linha 975" y2="30.714" transform="translate(15.3 8)" fill="none" stroke="#22b9c2" stroke-linecap="round" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

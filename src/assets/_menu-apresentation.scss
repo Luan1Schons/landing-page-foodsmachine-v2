@@ -1,0 +1,39 @@
+.menu-apresentation {
+    margin-top: 120px;
+    .container {
+        position: relative;
+    }
+    .desc {
+        text-align: center;
+        font-family: the_bold_fontbold, Arial, Helvetica, sans-serif;
+        font-weight: bold;
+
+        h3{
+            font-size: 0.9em;
+        }
+
+        span {
+            b{
+                color: red;
+            }
+        }
+    }
+    img {
+        @media screen and (min-width: 768px) {
+            width: 420px;
+            text-align:center;
+          }
+          width: 380px;
+    }
+
+    .btn-primary{
+        padding: 10px 10px;
+        font-family: futura_bk_btbook, Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
+        background: rgb(254,62,120);
+        background: linear-gradient(340deg, rgba(254,62,120,1) 0%, rgba(255,98,85,1) 100%);
+        border:none;
+        border-radius: 20px;
+    }
+
+}

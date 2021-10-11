@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "The Bold Font";
+    src: url("https://luan1schons.github.io/landingpage-foodsmachine-mobile/assets/fonts/theboldfont.ttf");
+}
+
+@font-face {
+    font-family: "Futura Bk BT";
+    src: url("https://luan1schons.github.io/landingpage-foodsmachine-mobile/assets/fonts/FuturaBkBTBook.ttf");
+}
+
+@font-face {
+    font-family: "Gothic";
+    src: url("https://luan1schons.github.io/landingpage-foodsmachine-mobile/assets/fonts/GOTHIC.TTF");
+}
+
+body {
+    background-color:#f1f1f1;
+
+    .font-tbf {
+        font-family: 'The Bold Font';
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    .font-fbk {
+        font-family: 'Futura Bk BT';
+        font-style: normal;
+    }
+}
+

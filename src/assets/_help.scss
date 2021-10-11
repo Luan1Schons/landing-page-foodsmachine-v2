@@ -1,0 +1,46 @@
+.help {
+    .bg-green-cian{
+        text-align: center;
+        color: #fff;
+        background-color: #22b9c2;
+        padding: 5px;
+        border-radius:35px;
+        h3 {
+            font-weight: 900;
+            font-size:1rem;
+        }
+        h4 {
+            font-size: 0.6rem;
+        }
+    }
+    .card {
+        border-radius: 25px;
+        background-color: #4A0268;
+    }
+
+    .form-label {
+        font-size: 0.7rem;
+        color: #fff;
+        font-weight: 900;
+    }
+
+    .form-control{
+        border: none;
+        padding: 13px 10px;
+        border-radius: 25px;
+    }
+
+    .btn-primary { 
+        font-weight: 700;
+        border-radius: 15px;
+        background-color: #67088F;
+        border: 2px solid #22b9c2;
+    }
+
+    input::-webkit-input-placeholder {/* Chrome/Opera/Safari/Edge */
+        color: #67088F;
+        text-align: center;
+        font-weight: 300;
+    }
+
+}
