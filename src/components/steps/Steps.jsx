@@ -8,12 +8,17 @@ import person1 from '../../assets/img/svg/person-1.svg';
 import person2 from '../../assets/img/svg/person-2.svg';
 import person3 from '../../assets/img/svg/person-3.svg';
 
+var style_card = {
+    padding: "0px 90px",
+    marginTop: "100px"
+};
+
 export default props =>
     <>
         <div className="steps">
             <BrowserView>
                 <div className="d-flex flex-wrap" style={{ padding: "0rem 7rem" }}>
-                    <div className="col-4 p-5" style={{ marginTop: "100px" }}>
+                    <div className="col-4" style={ style_card }>
                         <div className="card m-2 no-shadow">
                             <div className="card-body">
                                 <h1 className="text-start">1º</h1>
@@ -28,7 +33,7 @@ export default props =>
                             </div>
                         </div>
                     </div>
-                    <div className="col-4 p-5" style={{ marginTop: "100px" }}>
+                    <div className="col-4" style={ style_card }>
                         <div className="card m-2">
                             <div className="card-body">
                                 <h1 className="text-start">2º</h1>
@@ -43,7 +48,7 @@ export default props =>
                             </div>
                         </div>
                     </div>
-                    <div className="col-4 p-5" style="margin-top:" style={{ marginTop: "100px" }}>
+                    <div className="col-4" style={ style_card }>
                         <div className="card m-2 no-shadow">
                             <div className="card-body">
                                 <h1 className="text-start">3º</h1>
@@ -113,7 +118,5 @@ export default props =>
                     </div>
                 </Carousel>
             </MobileView>
-
-            <div className="separator"></div>
         </div>
     </>

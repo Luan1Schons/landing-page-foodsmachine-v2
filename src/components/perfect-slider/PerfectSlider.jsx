@@ -40,7 +40,7 @@ export default class Perfect extends Component {
 
         return (
             <div>
-                <section className="perfect">
+                <section className="perfect" style={{marginTop: "200px"}}>
                     <h1 className="text-center font-tbf"><img src={heart} className="me-2" alt="heart" />PERFEITO PARA</h1>
                     <BrowserView>
                         <div className="d-flex justify-content-center">

@@ -16,21 +16,27 @@ export default props =>
                     <div className="content">
                         <div className="row">
                             <div className="col-6">
-                                <img src={logo_white} />
+                                <img src={logo_white} style={{ width: "220px" }} />
                             </div>
 
                             <div className="col-6">
-                                <div className="d-flex justify-content-evenly">
+                                <div className="d-flex justify-content-center">
+                                    <div className="p-2">
                                         <img src={icon_fb} />
+                                    </div>
+                                    <div className="p-2">
                                         <img src={icon_insta} />
+                                    </div>
+                                    <div className="p-2">
                                         <img src={icon_you} />
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div className="col-12 col-sm-12 mt-3">
-                        <p>© 2021 Todos os direitos reservados a Foods Machine.</p>
+                        <p style={{color: "#fff"}}>© 2021 Todos os direitos reservados a Foods Machine.</p>
                     </div>
 
                 </div>

@@ -93,13 +93,23 @@ nav .nav-button .btn-primary {
   color: #fff;
 }
 
-.menu .btn-white {
+nav label {
   background-color: #fff;
-  color: #B1B1B1;
+  border-radius: 25px;
+  padding: 0.5em 0.4em;
+  color: #22b9c2;
+  font-family: futura_bk_btbook, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+nav .btn-white {
+  background-color: #fff;
+  color: #b1b1b1;
   border-radius: 10px;
 }
 
-.menu .btn-gradient {
+nav .btn-gradient {
   position: absolute;
   margin-top: 70px;
   width: 350px;
@@ -111,18 +121,7 @@ nav .nav-button .btn-primary {
   background: linear-gradient(340deg, #fe3e78 0%, #ff6255 100%);
   border: none;
   border-radius: 20px;
-}
-
-@media screen and (min-width: 1024px) {
-  .menu .btn-gradient {
-    left: 26rem;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .menu .btn-gradient {
-    left: 22rem;
-  }
+  margin-top: 20px;
 }
 
 .apresentation {

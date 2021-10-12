@@ -30,36 +30,32 @@ export default props =>
             </nav>
         </MobileView>
         <BrowserView>
-            <nav className="menu navbar-dark bg-cian">
-                <div className="container-fluid">
-
-                    <div className="d-flex flex-nowrap justify-content-center align-items-center">
-                        <div className="item d-flex justify-content-start">
-                            <img src={logo} style={{ marginRight: "220px" }} />
+            <nav className="navbar-dark bg-cian">
+                <div className="d-flex justify-content-center align-items-center">
+                    <div className="col-3 p-2">
+                        <img src={logo} style={{ width: "220px" }} />
+                    </div>
+                    <div className="item col-3">
+                        <div className="d-flex flex-nowrap align-items-start">
+                            <h3 className="text-white text-nowrap font-tbf" style={{ fontSize: "1rem" }}>15 DIAS <span className="font-fbk">DE TESTE GRÁTIS +</span> 15%OFF <span className="font-tbf">POR 3 MESES</span></h3>
                         </div>
-                        <div className="item">
-                            <div className="d-flex flex-nowrap align-items-start">
-                                <div className="item">
-                                    <h3 className="text-white text-nowrap font-tbf" style={{ fontSize: "1rem" }}>15 DIAS <span className="font-fbk">DE TESTE GRÁTIS +</span> 15%OFF <span className="font-tbf">POR 3 MESES</span></h3>
-                                </div>
-                            </div>
-                        </div>
+                        <button className="btn btn-gradient font-fbk">
+                            <b className="font-tbf">AGORA</b> SEU TESTE DE 15 DIAS GRÁTIS
+                        </button>
+                    </div>
 
-                        <div className="item d-flex">
-                            <div className="item">
-                                <div className="item d-flex justify-content-start">
-                                    <label style={label_style}><h3 style={{ fontSize: "1.2rem" }} className="font-tbf mt-2">3 DIAS 20:58:20</h3></label>
-                                </div>
-                            </div>
-                            <div className="item d-flex justify-content-end">
-                                <button className="btn btn-white">ENTRAR</button>
-                            </div>
+                    <div className="item col-3">
+                        <div className="item d-flex justify-content-start p-2">
+                            <label style={label_style}><h3 style={{ fontSize: "1.2rem" }} className="font-tbf mt-2">3 DIAS 20:58:20</h3></label>
+                        </div>
+                    </div>
+
+                    <div className="item col-3">
+                        <div className="d-flex justify-content-end pe-4">
+                            <button className="btn btn-white">ENTRAR</button>
                         </div>
                     </div>
                 </div>
-                <button className="btn btn-gradient font-fbk">
-                    <b className="font-tbf">AGORA</b> SEU TESTE DE 15 DIAS GRÁTIS
-                </button>
             </nav>
         </BrowserView>
     </>
